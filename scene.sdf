@@ -1,0 +1,26 @@
+CAMERA:
+{
+	FOV:	45.0 
+	NEAR:	0.5
+	FAR:	100.0
+	POS:	0.0 0.0 20.0
+}
+
+LIGHT:
+{
+	POS:	0.0 0.0 6.0
+}
+
+MESH: torus.obj
+{
+	NAME:		player1
+	POS:		0.0 0.0 0.0
+	ROT:		-90.0 0.0 0.0
+	ROT_INCR:	0.3 0.3 0.0 
+	SCALE:		1.0 1.0 1.0
+	VEL:		0.0 0.0 0.0
+	SHADER_ID	0
+}
+
+SHADER:	shaders/diffuse	VERT_SHDR	FRAG_SHDR
+

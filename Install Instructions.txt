@@ -1,0 +1,11 @@
+Download the StudentTemplate.zip from moodle
+Open visual studio and create an empty C++ project
+Copy all files from the StudentTemplate to your new project folder. Note, all files should be in the same directory as the .sln file.
+Add the following files to your solution: 
+	.h files to the header folder
+	.cpp files to the source folder
+	.sdf file to your resource folder
+	shader files to your resource folder
+
+Compile the project - Debug x64 executable
+Run program
